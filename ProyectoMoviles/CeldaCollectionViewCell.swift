@@ -10,6 +10,4 @@ import UIKit
 
 class CeldaCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var lblText: UILabel!
-    
 }
