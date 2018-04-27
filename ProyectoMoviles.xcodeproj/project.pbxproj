@@ -17,6 +17,11 @@
 		E1080BB1209396F30096BAD5 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = E1080BAE209396F20096BAD5 /* heart.png */; };
 		E1080BB2209396F30096BAD5 /* hanger-line.png in Resources */ = {isa = PBXBuildFile; fileRef = E1080BAF209396F20096BAD5 /* hanger-line.png */; };
 		E1080BB3209396F30096BAD5 /* light-bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = E1080BB0209396F30096BAD5 /* light-bulb.png */; };
+		E1080BB820939FD70096BAD5 /* 14983_bealeygore-tex_d_632.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1080BB420939FD60096BAD5 /* 14983_bealeygore-tex_d_632.jpg */; };
+		E1080BB920939FD70096BAD5 /* adidasoriginalscampus._CB1512587610_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1080BB520939FD60096BAD5 /* adidasoriginalscampus._CB1512587610_.jpg */; };
+		E1080BBA20939FD70096BAD5 /* levis-511-slim-fit-jeans-mens.png in Resources */ = {isa = PBXBuildFile; fileRef = E1080BB620939FD60096BAD5 /* levis-511-slim-fit-jeans-mens.png */; };
+		E1080BBB20939FD70096BAD5 /* CE1070_01_laydown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1080BB720939FD70096BAD5 /* CE1070_01_laydown.jpg */; };
+		E1080BBD2093A0E80096BAD5 /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1080BBC2093A0E80096BAD5 /* FavoritosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		E1080BAE209396F20096BAD5 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		E1080BAF209396F20096BAD5 /* hanger-line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hanger-line.png"; sourceTree = "<group>"; };
 		E1080BB0209396F30096BAD5 /* light-bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-bulb.png"; sourceTree = "<group>"; };
+		E1080BB420939FD60096BAD5 /* 14983_bealeygore-tex_d_632.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14983_bealeygore-tex_d_632.jpg"; sourceTree = "<group>"; };
+		E1080BB520939FD60096BAD5 /* adidasoriginalscampus._CB1512587610_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adidasoriginalscampus._CB1512587610_.jpg; sourceTree = "<group>"; };
+		E1080BB620939FD60096BAD5 /* levis-511-slim-fit-jeans-mens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "levis-511-slim-fit-jeans-mens.png"; sourceTree = "<group>"; };
+		E1080BB720939FD70096BAD5 /* CE1070_01_laydown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CE1070_01_laydown.jpg; sourceTree = "<group>"; };
+		E1080BBC2093A0E80096BAD5 /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,11 @@
 				E1080BAF209396F20096BAD5 /* hanger-line.png */,
 				E1080BAE209396F20096BAD5 /* heart.png */,
 				E1080BB0209396F30096BAD5 /* light-bulb.png */,
+				E1080BB420939FD60096BAD5 /* 14983_bealeygore-tex_d_632.jpg */,
+				E1080BB520939FD60096BAD5 /* adidasoriginalscampus._CB1512587610_.jpg */,
+				E1080BB720939FD70096BAD5 /* CE1070_01_laydown.jpg */,
+				E1080BB620939FD60096BAD5 /* levis-511-slim-fit-jeans-mens.png */,
+				E1080BBC2093A0E80096BAD5 /* FavoritosViewController.swift */,
 			);
 			path = ProyectoMoviles;
 			sourceTree = "<group>";
@@ -139,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1080BB2209396F30096BAD5 /* hanger-line.png in Resources */,
+				E1080BB820939FD70096BAD5 /* 14983_bealeygore-tex_d_632.jpg in Resources */,
 				E1080BB3209396F30096BAD5 /* light-bulb.png in Resources */,
+				E1080BBA20939FD70096BAD5 /* levis-511-slim-fit-jeans-mens.png in Resources */,
+				E1080BB920939FD70096BAD5 /* adidasoriginalscampus._CB1512587610_.jpg in Resources */,
+				E1080BBB20939FD70096BAD5 /* CE1070_01_laydown.jpg in Resources */,
 				E1080BB1209396F30096BAD5 /* heart.png in Resources */,
 				5A477B0820914B1100354190 /* LaunchScreen.storyboard in Resources */,
 				5A477B0520914B1100354190 /* Assets.xcassets in Resources */,
@@ -158,6 +177,7 @@
 				5A477AFE20914B1100354190 /* AppDelegate.swift in Sources */,
 				5A662ED92093841A00690B14 /* ViewController.swift in Sources */,
 				5A662ED320937EBE00690B14 /* CeldaCollectionViewCell.swift in Sources */,
+				E1080BBD2093A0E80096BAD5 /* FavoritosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
