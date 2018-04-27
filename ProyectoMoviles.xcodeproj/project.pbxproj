@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5A477AFE20914B1100354190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A477AFD20914B1100354190 /* AppDelegate.swift */; };
-		5A477B0020914B1100354190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A477AFF20914B1100354190 /* ViewController.swift */; };
 		5A477B0320914B1100354190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A477B0120914B1100354190 /* Main.storyboard */; };
 		5A477B0520914B1100354190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A477B0420914B1100354190 /* Assets.xcassets */; };
 		5A477B0820914B1100354190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A477B0620914B1100354190 /* LaunchScreen.storyboard */; };
+		5A662ED320937EBE00690B14 /* CeldaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A662ED220937EBE00690B14 /* CeldaCollectionViewCell.swift */; };
+		5A662ED7209383FF00690B14 /* SugeridosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A662ED6209383FF00690B14 /* SugeridosViewController.swift */; };
+		5A662ED92093841A00690B14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A662ED82093841A00690B14 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A477AFA20914B1100354190 /* ProyectoMoviles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoMoviles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A477AFD20914B1100354190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A477AFF20914B1100354190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A477B0220914B1100354190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A477B0420914B1100354190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A477B0720914B1100354190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A477B0920914B1100354190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A662ED220937EBE00690B14 /* CeldaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A662ED6209383FF00690B14 /* SugeridosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugeridosViewController.swift; sourceTree = "<group>"; };
+		5A662ED82093841A00690B14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				5A477AFD20914B1100354190 /* AppDelegate.swift */,
-				5A477AFF20914B1100354190 /* ViewController.swift */,
 				5A477B0120914B1100354190 /* Main.storyboard */,
 				5A477B0420914B1100354190 /* Assets.xcassets */,
 				5A477B0620914B1100354190 /* LaunchScreen.storyboard */,
 				5A477B0920914B1100354190 /* Info.plist */,
+				5A662ED220937EBE00690B14 /* CeldaCollectionViewCell.swift */,
+				5A662ED6209383FF00690B14 /* SugeridosViewController.swift */,
+				5A662ED82093841A00690B14 /* ViewController.swift */,
 			);
 			path = ProyectoMoviles;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A477B0020914B1100354190 /* ViewController.swift in Sources */,
+				5A662ED7209383FF00690B14 /* SugeridosViewController.swift in Sources */,
 				5A477AFE20914B1100354190 /* AppDelegate.swift in Sources */,
+				5A662ED92093841A00690B14 /* ViewController.swift in Sources */,
+				5A662ED320937EBE00690B14 /* CeldaCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
