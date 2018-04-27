@@ -10,7 +10,8 @@ import UIKit
 
 class SugeridosViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource { 
 
-    let colors = ["negro","blanco","gris","amarillo","naranja","rojo","morado", "azul","verde"]
+    let colors = 12
+    let numberOfSets = 3
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +27,9 @@ class SugeridosViewController: UIViewController, UICollectionViewDelegate, UICol
 
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return colors.count
+        return colors
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let celda = collectionView.dequeueReusableCell(withReuseIdentifier: "celda", for: indexPath) as! CeldaCollectionViewCell
@@ -36,26 +38,33 @@ class SugeridosViewController: UIViewController, UICollectionViewDelegate, UICol
         case 0:
             celda.backgroundColor = UIColor.black
         case 1:
-            celda.backgroundColor = UIColor.gray
+            celda.backgroundColor = UIColor.darkGray
         case 2:
-            celda.backgroundColor = UIColor.white
+            celda.backgroundColor = UIColor.gray
         case 3:
-            celda.backgroundColor = UIColor.yellow
+            celda.backgroundColor = UIColor.white
+            celda.layer.borderWidth = 1.0
+            celda.layer.borderColor = UIColor.black.cgColor
         case 4:
-            celda.backgroundColor = UIColor.orange
+            celda.backgroundColor = UIColor.yellow
         case 5:
-            celda.backgroundColor = UIColor.red
+            celda.backgroundColor = UIColor.brown
         case 6:
-            celda.backgroundColor = UIColor.purple
+            celda.backgroundColor = UIColor.orange
         case 7:
+            celda.backgroundColor = UIColor.red
+        case 8:
+            celda.backgroundColor = UIColor.purple
+        case 9:
             celda.backgroundColor = UIColor.blue
+        case 10:
+            celda.backgroundColor = UIColor.cyan
         default:
             celda.backgroundColor = UIColor.green
         }
         
 
-        celda.layer.borderWidth = 1.0
-        celda.layer.borderColor = UIColor.black.cgColor
+        
         
         /*celda.backgroundColor = UIColor.white
         celda.backgroundColor = UIColor.gray
