@@ -14,6 +14,8 @@
 		5A662ED320937EBE00690B14 /* CeldaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A662ED220937EBE00690B14 /* CeldaCollectionViewCell.swift */; };
 		5A662ED7209383FF00690B14 /* SugeridosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A662ED6209383FF00690B14 /* SugeridosViewController.swift */; };
 		5A662ED92093841A00690B14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A662ED82093841A00690B14 /* ViewController.swift */; };
+		A72B8A21209A259D0020B5FE /* EventSuggestedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B8A20209A259D0020B5FE /* EventSuggestedViewController.swift */; };
+		A79238862098E59800FD900F /* mylooks.png in Resources */ = {isa = PBXBuildFile; fileRef = A79238852098E59700FD900F /* mylooks.png */; };
 		E1080BB1209396F30096BAD5 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = E1080BAE209396F20096BAD5 /* heart.png */; };
 		E1080BB2209396F30096BAD5 /* hanger-line.png in Resources */ = {isa = PBXBuildFile; fileRef = E1080BAF209396F20096BAD5 /* hanger-line.png */; };
 		E1080BB3209396F30096BAD5 /* light-bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = E1080BB0209396F30096BAD5 /* light-bulb.png */; };
@@ -57,6 +59,8 @@
 		5A662ED220937EBE00690B14 /* CeldaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCollectionViewCell.swift; sourceTree = "<group>"; };
 		5A662ED6209383FF00690B14 /* SugeridosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugeridosViewController.swift; sourceTree = "<group>"; };
 		5A662ED82093841A00690B14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A72B8A20209A259D0020B5FE /* EventSuggestedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSuggestedViewController.swift; sourceTree = "<group>"; };
+		A79238852098E59700FD900F /* mylooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mylooks.png; sourceTree = "<group>"; };
 		E1080BAE209396F20096BAD5 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		E1080BAF209396F20096BAD5 /* hanger-line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hanger-line.png"; sourceTree = "<group>"; };
 		E1080BB0209396F30096BAD5 /* light-bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-bulb.png"; sourceTree = "<group>"; };
@@ -120,6 +124,35 @@
 		5A477AFC20914B1100354190 /* ProyectoMoviles */ = {
 			isa = PBXGroup;
 			children = (
+				A72B8A14209933F40020B5FE /* Pictures */,
+				5A477AFD20914B1100354190 /* AppDelegate.swift */,
+				5A477B0120914B1100354190 /* Main.storyboard */,
+				5A477B0420914B1100354190 /* Assets.xcassets */,
+				5A477B0620914B1100354190 /* LaunchScreen.storyboard */,
+				5A477B0920914B1100354190 /* Info.plist */,
+				5A662ED220937EBE00690B14 /* CeldaCollectionViewCell.swift */,
+				5A662ED6209383FF00690B14 /* SugeridosViewController.swift */,
+				5A662ED82093841A00690B14 /* ViewController.swift */,
+				E1080BBC2093A0E80096BAD5 /* FavoritosViewController.swift */,
+				F3EEE1ED2097BDD400F58E88 /* ClosetVC.swift */,
+				F3EEE1EF2097CD5C00F58E88 /* ClothesCV.swift */,
+				F3EEE1F12097DC2700F58E88 /* ViewCell.swift */,
+				A72B8A20209A259D0020B5FE /* EventSuggestedViewController.swift */,
+			);
+			path = ProyectoMoviles;
+			sourceTree = "<group>";
+		};
+		A72B8A14209933F40020B5FE /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				E1080BAF209396F20096BAD5 /* hanger-line.png */,
+				E1080BAE209396F20096BAD5 /* heart.png */,
+				E1080BB0209396F30096BAD5 /* light-bulb.png */,
+				E1080BB420939FD60096BAD5 /* 14983_bealeygore-tex_d_632.jpg */,
+				E1080BB520939FD60096BAD5 /* adidasoriginalscampus._CB1512587610_.jpg */,
+				E1080BB720939FD70096BAD5 /* CE1070_01_laydown.jpg */,
+				E1080BB620939FD60096BAD5 /* levis-511-slim-fit-jeans-mens.png */,
+				A79238852098E59700FD900F /* mylooks.png */,
 				F3D8A18F2098BC3C007B3945 /* shoe1.jpeg */,
 				F3D8A18D2098BC3B007B3945 /* shoe2.jpeg */,
 				F3D8A18E2098BC3B007B3945 /* shoe3.jpg */,
@@ -140,27 +173,8 @@
 				F3EEE1E52097BD2400F58E88 /* jeans.jpg */,
 				F3EEE1E82097BD2500F58E88 /* shirthome.png */,
 				F3EEE1E62097BD2400F58E88 /* shoes.jpeg */,
-				5A477AFD20914B1100354190 /* AppDelegate.swift */,
-				5A477B0120914B1100354190 /* Main.storyboard */,
-				5A477B0420914B1100354190 /* Assets.xcassets */,
-				5A477B0620914B1100354190 /* LaunchScreen.storyboard */,
-				5A477B0920914B1100354190 /* Info.plist */,
-				5A662ED220937EBE00690B14 /* CeldaCollectionViewCell.swift */,
-				5A662ED6209383FF00690B14 /* SugeridosViewController.swift */,
-				5A662ED82093841A00690B14 /* ViewController.swift */,
-				E1080BAF209396F20096BAD5 /* hanger-line.png */,
-				E1080BAE209396F20096BAD5 /* heart.png */,
-				E1080BB0209396F30096BAD5 /* light-bulb.png */,
-				E1080BB420939FD60096BAD5 /* 14983_bealeygore-tex_d_632.jpg */,
-				E1080BB520939FD60096BAD5 /* adidasoriginalscampus._CB1512587610_.jpg */,
-				E1080BB720939FD70096BAD5 /* CE1070_01_laydown.jpg */,
-				E1080BB620939FD60096BAD5 /* levis-511-slim-fit-jeans-mens.png */,
-				E1080BBC2093A0E80096BAD5 /* FavoritosViewController.swift */,
-				F3EEE1ED2097BDD400F58E88 /* ClosetVC.swift */,
-				F3EEE1EF2097CD5C00F58E88 /* ClothesCV.swift */,
-				F3EEE1F12097DC2700F58E88 /* ViewCell.swift */,
 			);
-			path = ProyectoMoviles;
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,7 @@
 				F3EEE1FF2097E6A900F58E88 /* jeans2.jpg in Resources */,
 				F3D8A1922098BC3C007B3945 /* shoe3.jpg in Resources */,
 				F3EEE1F72097E56900F58E88 /* shirt2.jpeg in Resources */,
+				A79238862098E59800FD900F /* mylooks.png in Resources */,
 				F3D8A18B2098BA0D007B3945 /* chac2.jpg in Resources */,
 				E1080BBB20939FD70096BAD5 /* CE1070_01_laydown.jpg in Resources */,
 				E1080BB1209396F30096BAD5 /* heart.png in Resources */,
@@ -262,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72B8A21209A259D0020B5FE /* EventSuggestedViewController.swift in Sources */,
 				5A662ED7209383FF00690B14 /* SugeridosViewController.swift in Sources */,
 				F3EEE1F02097CD5C00F58E88 /* ClothesCV.swift in Sources */,
 				5A477AFE20914B1100354190 /* AppDelegate.swift in Sources */,
